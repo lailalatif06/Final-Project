@@ -1,0 +1,315 @@
+/* body */
+body {
+	background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);		
+	margin: auto;
+	padding: auto;
+}
+
+/* Header */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgb(12, 12, 12, 0.3) url("../img/bgblue3.jpg") repeat;
+	color: rgba(37, 20, 78, 0.753);
+	text-shadow: 2px 2px rgba(255, 255, 255, 0.719);
+	padding: 2px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 4px 8px 10px rgba(255, 255, 255, 0.719);
+}
+
+/* paragraphs */
+p {
+	font-family: 'Roboto Slab', serif;
+	line-height: -1.5;
+	letter-spacing: 2px;
+}
+
+/* Content wrapper */
+.container {
+	width: 1000px;
+	background-color: rgb(37, 20, 78);
+	margin: auto;
+	padding: 15px;
+	height: 1420px;
+	box-shadow: 4px 8px 10px rgb(37, 20, 78);
+}
+
+/* navigation bar */
+nav {
+	background-color: rgb(169, 169, 169, 0.5);
+	margin-bottom: 10px;
+	box-shadow: 4px 8px 10px rgba(255, 255, 255, 0.719);
+	padding: 15px;
+	border-radius: 10px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+img {
+	box-shadow: 4px 8px 10px rgb(37, 20, 78);
+	border-radius: 10px;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+}
+
+ul li {
+	background-color: rgb(12, 7, 22);
+	box-shadow: 4px 8px 10px rgb(37, 20, 78);
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+ul li:hover {
+	background: rgb(238,157,42);
+	background: linear-gradient(90deg, rgba(238,157,42,1) 0%, rgba(244,17,33,1) 31%, rgba(133,9,31,0.919502835313813) 59%, rgba(46,27,116,1) 100%);	
+}
+
+ul li a:hover {
+	color: rgb(37, 20, 78);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hero */
+.hero {
+	border: 1px solid rgb(12, 12, 12);
+	background-color: rgb(255, 255, 255);
+	height: 400px;
+	background-position: bottom right;
+	margin-bottom: 10px;
+}
+
+.text-back-hero {
+	background-color: rgb(37, 20, 78, 0.5);
+	padding: 12px 50px;
+	text-align: center;
+	display: inline-block;
+	color: rgb(12, 12, 12);
+	position: relative;
+	top: -370px;
+	left: 50px;
+	margin-left: 80px;
+
+}
+
+section {
+	width: 0;
+	height: 0;
+	padding: 15px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	margin-top: -25px;
+}
+
+
+.sec {
+	position: relative;
+	z-index: 0;
+	animation: mymove 5s infinite;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#div1 {
+	animation-timing-function: linear;
+}
+
+@keyframes mymove {
+	from {
+		left: -100px;
+	}
+
+	to {
+		left: 1220px;
+	}
+}
+
+/* main */
+.map {
+	clear: right;
+}
+
+.info {
+	color: rgb(255, 255, 255);
+}
+
+.video {
+	padding: 5px;
+	box-sizing: border-box;
+	margin: auto;
+	padding: auto;
+	float: right;
+	clear: right;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* Main Content */
+.column {
+	float: left;
+	width: 478px;
+	height: 400px;
+	padding: 10px;
+	border: 1px solid rgb(12, 12, 12);
+	margin-bottom: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.column img {
+	width: 45%;
+	float: left;
+}
+
+.col-one {
+	background: transparent;
+}
+
+.col-one:hover {
+	background: transparent url("../img/cute0.jpg") no-repeat center;
+	color: rgb(12, 12, 12);
+}
+
+.col-two {
+	background: transparent;
+}
+
+.col-two:hover {
+	background: transparent url("../img/cute9.jpg") no-repeat center;
+	color: rgb(12, 12, 12);
+}
+
+.col-three {
+	background: transparent;
+}
+
+.col-three:hover {
+	background: transparent url("../img/cute8.jpg") no-repeat center;
+	color: rgb(12, 12, 12);
+}
+
+.col-four {
+	background: transparent;
+}
+
+.col-four:hover {
+	background: transparent url("../img/cute7.jpg") no-repeat center;
+	color: rgb(12, 12, 12);
+}
+
+.col-five {
+	background: transparent;
+}
+
+.col-five:hover {
+	background: transparent url("../img/cute13.jpg") no-repeat center;
+	color: rgb(12, 12, 12);
+}
+
+.col-six {
+	background: transparent;
+}
+
+.col-six:hover {
+	background: transparent url("../img/cute5.jpg") no-repeat center;
+	color: rgb(12, 12, 12);
+}
+
+.text-back {
+	background-color: rgb(255, 255, 255, 0.5);
+	padding: 2px 10px;
+}
+
+/* Footer */
+footer {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background: rgb(12, 12, 12, 0.3) url("../img/bgblue3.jpg") repeat;
+	box-shadow: 4px 8px 10px rgb(37, 20, 78);
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+	height: 350px;
+}
+
+/* icons */
+.fa-heart {
+	color: rgb(255, 255, 255);
+}
+
+.fa-praying-hands {
+	color: rgb(255, 255, 255);
+}
+
+.fa-dove {
+	color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+	color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+	color: rgb(255, 255, 255);
+}
+
+.fa-snapchat {
+	color: rgb(255, 255, 255);
+}
+
+.fa-twitter {
+	color: rgb(255, 255, 255);
+}
+
+.privandterm {
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.myname {
+	font-size: larger;
+}
+
+.logo {
+	padding-top: 5px;
+	box-shadow: 4px 8px 10px rgba(255, 255, 255, 0.5);
+	height: 40px;
+	width: 60px;
+	margin: auto;
+}
+
+/* forms */
+input[type=text] input[type=email],
+textarea {
+	width: 80%;
+	padding: -25px;
+	box-sizing: border-box;
+	border: 1px solid rgb(12, 12, 12);
+}
+
+.page {
+	background-color: rgb(255, 255, 255);
+	border: 1px rgb(12, 12, 12);
+	padding: 5px;
+	padding-left: 70px;
+	padding-right: 70px;
+
+}
